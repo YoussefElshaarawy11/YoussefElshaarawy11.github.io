@@ -1,0 +1,158 @@
+
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+.twinkling{
+  background:transparent url(PlanetRemains.png) repeat top center;
+  z-index:2;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds { 
+    background:transparent url(drawing.png) repeat bottom center;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+	z-index: 4
+    
+	
+}
+
+.header {
+  padding: 10px; 
+  text-align: center; 
+  background: white; 
+  color: black; 
+  z-index: 5
+}
+
+.header h1 {
+  font-size: 40px;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+.header h2 {
+  margin-top: 2px;
+  font-size: 20px;
+  font-family: "Lucida Handwriting", "Brush Script MT", Cursive;
+  color: MediumSeaGreen;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  column-count: 2;
+}
+.main h3 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.main p {
+  font-size: 20px;
+}
+.main h4{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.side {
+  background-color: AntiqueWhite;
+  padding: 20px;
+}
+.side h4{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.side p{
+  font-size: 20px;
+}
+
+.WelcomePicture{
+break-after: column;
+}

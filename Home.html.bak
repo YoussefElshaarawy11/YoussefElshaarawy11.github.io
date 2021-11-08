@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="Stylish.css">
+  </head>
+  <body>
+    <p><br>
+    </p>
+    <div class="header">
+      <h1>Youssef Elshaarawy</h1>
+      <h2>Graphic Designer and Programmer</h2>
+    </div>
+    <div class="navbar" style="text-align: center;"> <a href="home.html">Home</a>
+      <a href="About%20Me.html">About Me</a> <a href="Sorrow%20At%20The%20Quantum%20Realm.html">My
+        CSS Art Project</a> </div>
+    <div class="main">
+      <h3><br>
+      </h3>
+      <h3><br>
+      </h3>
+      <h3>Hello there!</h3>
+      <p><br>
+      </p>
+      <p><br>
+      </p>
+      <p><br>
+      </p>
+      <p><br>
+      </p>
+      <p>I'm Youssef. I'm a Computer Science Major and I am </p>
+      <p>very interested in computer graphics and animation.</p>
+      <p><br>
+      </p>
+      <p>I have just met you and <b style="color: #d81f0d;">I love you!</b> </p>
+      <p><br>
+      </p>
+      <p><br>
+      </p>
+      <div class="WelcomePic"> </div>
+      <div style="text-align: right;"><img src="Youssef1.jpg"
+
+          alt="Me at Harry Potter New York" title="Youssef1"></div>
+    </div>
+  </body>
+</html>
